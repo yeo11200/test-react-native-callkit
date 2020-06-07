@@ -40,4 +40,8 @@ npm install --save react-native-callkeep
 or 
 
 yarn add react-native-callkeep
+
+
+// native 환경에서 사용하는 명령어
+react-native link
 ```
