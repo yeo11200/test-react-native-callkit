@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="callkit/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/callkit.iml" filepath="$PROJECT_DIR$/.idea/modules/callkit.iml" group="callkit" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-816111230/expo-constants.iml" filepath="$PROJECT_DIR$/.idea/modules/-816111230/expo-constants.iml" group="callkit/expo-constants" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2052956967/expo-error-recovery.iml" filepath="$PROJECT_DIR$/.idea/modules/2052956967/expo-error-recovery.iml" group="callkit/expo-error-recovery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1109199379/expo-file-system.iml" filepath="$PROJECT_DIR$/.idea/modules/1109199379/expo-file-system.iml" group="callkit/expo-file-system" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1346145532/expo-font.iml" filepath="$PROJECT_DIR$/.idea/modules/1346145532/expo-font.iml" group="callkit/expo-font" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-857288078/expo-image-loader.iml" filepath="$PROJECT_DIR$/.idea/modules/-857288078/expo-image-loader.iml" group="callkit/expo-image-loader" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1825162794/expo-keep-awake.iml" filepath="$PROJECT_DIR$/.idea/modules/1825162794/expo-keep-awake.iml" group="callkit/expo-keep-awake" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2034020811/expo-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/2034020811/expo-linear-gradient.iml" group="callkit/expo-linear-gradient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-481006622/expo-location.iml" filepath="$PROJECT_DIR$/.idea/modules/-481006622/expo-location.iml" group="callkit/expo-location" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2083116791/expo-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/2083116791/expo-permissions.iml" group="callkit/expo-permissions" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2070656443/expo-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/-2070656443/expo-splash-screen.iml" group="callkit/expo-splash-screen" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/95810681/expo-sqlite.iml" filepath="$PROJECT_DIR$/.idea/modules/95810681/expo-sqlite.iml" group="callkit/expo-sqlite" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1242209981/expo-updates.iml" filepath="$PROJECT_DIR$/.idea/modules/1242209981/expo-updates.iml" group="callkit/expo-updates" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/809749794/expo-web-browser.iml" filepath="$PROJECT_DIR$/.idea/modules/809749794/expo-web-browser.iml" group="callkit/expo-web-browser" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2002364608/react-native-background-timer.iml" filepath="$PROJECT_DIR$/.idea/modules/-2002364608/react-native-background-timer.iml" group="callkit/react-native-background-timer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1543531203/react-native-callkeep.iml" filepath="$PROJECT_DIR$/.idea/modules/-1543531203/react-native-callkeep.iml" group="callkit/react-native-callkeep" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-753474581/react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/-753474581/react-native-device-info.iml" group="callkit/react-native-device-info" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-856272660/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-856272660/react-native-gesture-handler.iml" group="callkit/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1593993648/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1593993648/react-native-reanimated.iml" group="callkit/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-707709779/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-707709779/react-native-screens.iml" group="callkit/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-858531865/unimodules-app-loader.iml" filepath="$PROJECT_DIR$/.idea/modules/-858531865/unimodules-app-loader.iml" group="callkit/unimodules-app-loader" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1097247541/unimodules-barcode-scanner-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1097247541/unimodules-barcode-scanner-interface.iml" group="callkit/unimodules-barcode-scanner-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-82702535/unimodules-camera-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-82702535/unimodules-camera-interface.iml" group="callkit/unimodules-camera-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-352421549/unimodules-constants-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-352421549/unimodules-constants-interface.iml" group="callkit/unimodules-constants-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/73510309/unimodules-core.iml" filepath="$PROJECT_DIR$/.idea/modules/73510309/unimodules-core.iml" group="callkit/unimodules-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1118494074/unimodules-face-detector-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1118494074/unimodules-face-detector-interface.iml" group="callkit/unimodules-face-detector-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-904623260/unimodules-file-system-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-904623260/unimodules-file-system-interface.iml" group="callkit/unimodules-file-system-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1535415267/unimodules-font-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1535415267/unimodules-font-interface.iml" group="callkit/unimodules-font-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/741774041/unimodules-image-loader-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/741774041/unimodules-image-loader-interface.iml" group="callkit/unimodules-image-loader-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1086223544/unimodules-permissions-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1086223544/unimodules-permissions-interface.iml" group="callkit/unimodules-permissions-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/149553069/unimodules-react-native-adapter.iml" filepath="$PROJECT_DIR$/.idea/modules/149553069/unimodules-react-native-adapter.iml" group="callkit/unimodules-react-native-adapter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/876790653/unimodules-sensors-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/876790653/unimodules-sensors-interface.iml" group="callkit/unimodules-sensors-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1007994503/unimodules-task-manager-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1007994503/unimodules-task-manager-interface.iml" group="callkit/unimodules-task-manager-interface" />
+    </modules>
+  </component>
+</project>

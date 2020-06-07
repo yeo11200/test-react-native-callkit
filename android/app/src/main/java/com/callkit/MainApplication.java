@@ -6,11 +6,16 @@ import android.net.Uri;
 
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
+import com.learnium.RNDeviceInfo.RNDeviceInfo;
+import com.ocetnik.timer.BackgroundTimerPackage;
+import io.wazo.callkeep.RNCallKeepPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 import com.callkit.generated.BasePackageList;
+import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
+import com.swmansion.reanimated.ReanimatedPackage;
 
 import org.unimodules.adapters.react.ReactAdapterPackage;
 import org.unimodules.adapters.react.ModuleRegistryAdapter;
@@ -33,6 +38,11 @@ public class MainApplication extends Application implements ReactApplication {
   );
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
+    private final ReactModuleRegistryProvider mModuleRegistryProvider = new ReactModuleRegistryProvider(
+            new BasePackageList().getPackageList(),
+            Arrays.<SingletonModule>asList()
+    );
+
     @Override
     public boolean getUseDeveloperSupport() {
       return BuildConfig.DEBUG;
@@ -40,9 +50,15 @@ public class MainApplication extends Application implements ReactApplication {
 
     @Override
     protected List<ReactPackage> getPackages() {
-      List<ReactPackage> packages = new PackageList(this).getPackages();
-      packages.add(new ModuleRegistryAdapter(mModuleRegistryProvider));
-      return packages;
+      return Arrays.<ReactPackage>asList(
+              new MainReactPackage(),
+              new RNDeviceInfo(),
+              new BackgroundTimerPackage(),
+              new RNCallKeepPackage(),
+              new ReanimatedPackage(),
+              new RNGestureHandlerPackage(),
+              new ModuleRegistryAdapter(mModuleRegistryProvider)
+      );
     }
 
     @Override

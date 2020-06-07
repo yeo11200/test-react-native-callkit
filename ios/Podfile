@@ -43,4 +43,10 @@ target 'callkit' do
 
   # react-native-cli autolinking
   use_native_modules!
+  pod 'RNCallKeep', :path => '../node_modules/react-native-callkeep'
+
+  pod 'react-native-background-timer', :path => '../node_modules/react-native-background-timer'
+
+  pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
+
 end

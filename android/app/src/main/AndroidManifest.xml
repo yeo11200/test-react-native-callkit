@@ -19,6 +19,12 @@
   <uses-permission android:name="android.permission.RECORD_AUDIO"/>
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
   <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+  <uses-permission android:name="android.permission.BIND_TELECOM_CONNECTION_SERVICE"/>
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.CALL_PHONE" />
+  
   <!-- END OPTIONAL PERMISSIONS -->
   <application
     android:name=".MainApplication"
@@ -28,6 +34,14 @@
     android:allowBackup="false"
     android:theme="@style/AppTheme"
   >
+
+      <service android:name="io.wazo.callkeep.VoiceConnectionService"
+        android:label="Wazo"
+        android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE">
+        <intent-filter>
+            <action android:name="android.telecom.ConnectionService" />
+        </intent-filter>
+    </service>
     <meta-data android:name="expo.modules.updates.EXPO_UPDATE_URL" android:value="YOUR-APP-URL-HERE"/>
     <meta-data android:name="expo.modules.updates.EXPO_SDK_VERSION" android:value="YOUR-APP-SDK-VERSION-HERE"/>
     <activity
