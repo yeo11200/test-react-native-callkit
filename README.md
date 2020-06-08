@@ -43,5 +43,19 @@ yarn add react-native-callkeep
 
 
 // native 환경에서 사용하는 명령어
-react-native link
+react-native link react-natvie-callkeep
+```
+
+#### 5. 필요 패키지 설정
+```npm
+npm install --save uuid
+npm install --save react-native-callkeep
+npm install --save react-native-background-timer
+npm install --save react-native-device-info
+
+react-native link uuid
+react-native link react-native-callkeep
+react-native link react-native-background-timer
+react-native link react-native-device-info
+
 ```
